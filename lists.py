@@ -82,14 +82,25 @@ del mylist[0]
 print(mylist)
 
 #The del keyword can also delete the list completely
-mylist = ["Fortuner", "Z900", "Porsche 718"] 
-del mylist
-print(mylist)
+# mylist = ["Fortuner", "Z900", "Porsche 718"] 
+# del mylist
+# print(mylist)
 
 #The clear() method empties the list
 mylist = ["Fortuner", "Z900", "Porsche 718"] 
 mylist.clear()
 print(mylist)
 
+newlist = ["Ducati","Triumph","Kawasaki"]
+for x in newlist:
+    print(x)
 
+newlist = ["Ducati","Triumph","Kawasaki"]
+for i in range(len(newlist)):
+    print(newlist[i])
 
+newlist = ["Ducati","Triumph","Kawasaki"]
+i = 0
+while i < len(newlist):
+    print(newlist[i])
+    i=i+1
